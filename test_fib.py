@@ -1,4 +1,3 @@
-import pytest
 from fib import fib
 
 def test_fib_is_function():
