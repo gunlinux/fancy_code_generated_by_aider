@@ -2,5 +2,5 @@
 name = "my-project"
 version = "0.1.0"
 dependencies = []
-dev-dependencies = ["ruff"]
+dev-dependencies = ["ruff", "pytest"]
 requires-python = ">=3.12"
