@@ -2,5 +2,6 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.uv]
-venv-dir = "venv"
+[project]
+name = "my-project"
+version = "0.1.0"
