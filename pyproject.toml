@@ -8,8 +8,5 @@ version = "0.1.0"
 py_modules = ["fib"]
 
 [tool.setuptools]
-find:
-  include:
-    - fib.py
-  exclude:
-    - test_fib.py
+find = ["fib.py"]
+exclude = ["test_fib.py"]
